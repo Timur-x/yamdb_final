@@ -19,6 +19,11 @@
 - Django 2.2.28
 - DRF
 - JWT
+- Docker
+- NGINX
+- PostgreSQL
+- GIT
+- Gunicorn
 
 ### Шаблон наполнения env-файла:
 

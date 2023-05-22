@@ -9,6 +9,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import AccessToken
+from reviews.models import Category, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .mixins import ModelMixinSet
@@ -20,8 +21,6 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           SignUpSerializer, TitleReadSerializer,
                           TitleWriteSerializer, UsersSerializer)
 from .utils import generate_and_send_code_to_email
-
-from reviews.models import Category, Genre, Review, Title, User
 
 
 class CategoryViewSet(ModelMixinSet):

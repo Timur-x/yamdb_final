@@ -48,7 +48,7 @@ DB_PORT=
 
 `cd infra/ docker-compose up -d --build`
 
-Выполнить по очереди команды:
+Выполнить по очереди команды :
 
 `docker-compose exec web python manage.py makemigrations reviews `
 

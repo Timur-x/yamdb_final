@@ -12,7 +12,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '158.160.55.101',
     'web',
-    ]
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
